@@ -20,7 +20,7 @@ namespace kar_main_utils
 
         public static void debugTime() => Debug.Log("NOW=" + now);
 
-        public static bool mommentPassed(float momment) => momment > now;
+        public static bool mommentPassed(float momment) => momment < now;
 
 
     }
