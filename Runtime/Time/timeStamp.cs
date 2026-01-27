@@ -19,7 +19,7 @@ namespace kar_main_utils
         //public timeStamp(float after = 0) { _time = myTime.now + after; }
 
         float _time;//! FLOAT DECIDED
-        public float getTime => _time;  
+        public float getTime => _time;
 
 
 
@@ -30,6 +30,7 @@ namespace kar_main_utils
         public void setAfterPoint(float point, float after) => setCustom(point + after);
 
 
+        public bool HasThatAmountPassed(float amount) => myTime.now > _time + amount;
 
         //COMPARISONS
         public bool mommentPassed() => myTime.now > _time;

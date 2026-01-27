@@ -106,7 +106,7 @@ namespace kar_main_utils
         {
             //todo duplicate same frame killAll with same id check ..
 
-            //if (id == null) { Debug.LogError(" KILL NULL ID "); }
+            if (id == null) { Debug.LogError(" KILL NULL ID "); }
             foreach (var item in inst.invokes)
             {
                 if (item._id == null) continue;
