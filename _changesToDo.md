@@ -9,17 +9,23 @@ solving issues that are encountered in each use of the utilities and will lead t
 > <timeStamp>
 
 
-## [NOT_URGENT]
+## <!-- [NOT_URGENT] -->
 > <ID>
-- types - maybe for example enemies and friendly and neutral and menu ..
-option to kill all of certain type maybe?? ??
-> <INVO>
-- possibly priority quque that sorts items by value when you put them in and 
-for check if pass you dont need to check each one every frame.. you have them sorted 
-and just handle untill not time passed like 10 instead of 150
+-       types - maybe for example enemies and friendly and neutral and menu ..
+    option to kill all of certain type maybe?? ??
 
-## [SOLVED][REQUIRE_CONFIRMATION]
-- invo manager killAll doesnt look if is empty the one you give it .. check and add warning if he does it .. ..
-- invo advaned constructors to return the class so that you can handle it 
-in the normal ones does it ???
-- need function to say havePassedFromThen
+> <INVO>
+-       κατι με access στα itterations ισως το extended πχ να μπορεις να πεις αν 0 
+    κανε αυτο αλλιως το αλλο..
+
+-       possibly priority quque that sorts items by value when you put them in and 
+    for check if pass you dont need to check each one every frame.. you have them sorted 
+    and just handle untill not time passed like 10 instead of 150
+
+
+## <!-- [SOLVED] [REQUIRE_CONFIRMATION] -->
+-       invo manager killAll doesnt look if is empty the one you give it .. check and 
+    add warning if he does it .. ..
+-       invo advaned constructors to return the class so that you can handle it 
+    in the normal ones does it ???
+-       need function to say havePassedFromThen
