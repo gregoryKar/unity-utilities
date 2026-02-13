@@ -1,3 +1,4 @@
 {
-	"name": "myUtilsAsembly"
+	"name": "karianakis.utilities",
+	"rootNamespace": "karianakis.utilities"
 }

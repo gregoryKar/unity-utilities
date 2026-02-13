@@ -4,7 +4,7 @@
 
 using System;
 
-namespace kar_main_utils
+namespace karianakis.utilities
 {
     //! need to seperate ids ??? like touch id and button id ??
 

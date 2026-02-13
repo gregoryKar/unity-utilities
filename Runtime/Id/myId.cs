@@ -5,7 +5,7 @@
 using System;
 using UnityEngine;
 
-namespace kar_main_utils
+namespace karianakis.utilities
 {
   
     public class myId : myIdBase //: IEquatable<myId>, IEquatable<int>

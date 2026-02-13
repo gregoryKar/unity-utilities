@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace kar_main_utils
+namespace karianakis.utilities
 {
 
 

@@ -9,7 +9,7 @@ using System;
 
 
 
-namespace kar_main_utils
+namespace karianakis.utilities
 {
 
     public static class myTime

@@ -6,39 +6,42 @@ using UnityEngine;
 
 
 
-public class MyPool<T>
-//where T : class
+namespace karianakis.utilities
 {
-    HashSet<T> Active { get; set; } = new();
-    Stack<T> Inactive { get; set; } = new();
-    public Func<T> Instantiate { private get; set; }
-    public Action<T> Initialize { private get; set; }
-    public Action<T> Deactivate { private get; set; }
-
-    public T Get()
+    public class MyPool<T>
+    //where T : class
     {
-        T node;
-        int size = Inactive.Count;
-        if (size > 0)
-        {
-            node = Inactive.Pop();
-        }
-        else
-        {
-            node = Instantiate();
-        }
-        Initialize(node);
-        Active.Add(node);
-        return node;
-    }
+        HashSet<T> Active { get; set; } = new();
+        Stack<T> Inactive { get; set; } = new();
+        public Func<T> Instantiate { private get; set; }
+        public Action<T> Initialize { private get; set; }
+        public Action<T> Deactivate { private get; set; }
 
-    public void Remove(T node)
-    {
-        if (!Active.Contains(node)) { Debug.LogError("Attempted to remove a node that is not active."); return; }
+        public T Get()
+        {
+            T node;
+            int size = Inactive.Count;
+            if (size > 0)
+            {
+                node = Inactive.Pop();
+            }
+            else
+            {
+                node = Instantiate();
+            }
+            Initialize(node);
+            Active.Add(node);
+            return node;
+        }
 
-        Active.Remove(node);
-        Deactivate(node);
-        Inactive.Push(node);
+        public void Remove(T node)
+        {
+            if (!Active.Contains(node)) { Debug.LogError("Attempted to remove a node that is not active."); return; }
+
+            Active.Remove(node);
+            Deactivate(node);
+            Inactive.Push(node);
+        }
     }
 }
 

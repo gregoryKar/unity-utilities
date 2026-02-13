@@ -7,7 +7,7 @@ using System;
 // create instance using it for a time stamp
 // why comparable ?? ??
 
-namespace kar_main_utils
+namespace karianakis.utilities
 {
 
     [Serializable]
