@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-namespace karianakis.utilities
+namespace Karianakis.Utilities
 {
 
 

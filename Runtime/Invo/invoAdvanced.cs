@@ -2,7 +2,7 @@
 using System;
 
 
-namespace karianakis.utilities
+namespace Karianakis.Utilities
 {
     public class invoAdvanced : invoBase
     {

@@ -4,7 +4,7 @@
 //todo instead of float time , myTime variable that can just set to gameTime
 // so no need to seperate in process logic
 
-namespace karianakis.utilities
+namespace Karianakis.Utilities
 {
 
     public abstract class invoBase

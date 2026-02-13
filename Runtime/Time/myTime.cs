@@ -9,7 +9,7 @@ using System;
 
 
 
-namespace karianakis.utilities
+namespace Karianakis.Utilities
 {
 
     public static class myTime

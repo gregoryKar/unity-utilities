@@ -6,7 +6,7 @@ using UnityEngine;
 
 
 
-namespace karianakis.utilities
+namespace Karianakis.Utilities
 {
     public class MyPool<T>
     //where T : class

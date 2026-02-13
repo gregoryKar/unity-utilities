@@ -7,7 +7,7 @@ using System;
 // create instance using it for a time stamp
 // why comparable ?? ??
 
-namespace karianakis.utilities
+namespace Karianakis.Utilities
 {
 
     [Serializable]
