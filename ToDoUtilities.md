@@ -1,15 +1,15 @@
-
-
-here i will write stuff about the changes that will be made in future versions 
-solving issues that are encountered in each use of the utilities and will lead to the future version
+- TODO - PROBLEMS - THOUGHTS
 
 
 
-## *URGENT*
-> <timeStamp>
+
+- utilities bad files naming conventions _toDo ..
+- REMOVE POSSIBLITY OF EDITOR CALL 
+    <!--> use #if , no new class .. only stass.create 
+    all pass the if not editor return function test
 
 
-## <!-- [NOT_URGENT] -->
+
 > <ID>
 -       σε ενοχλει που δεν μπορεις να κανεις απλα ενα id == other
     τωρα πως ακριβως κανεις equations και γενικα πως πρεπει να 
@@ -27,9 +27,14 @@ solving issues that are encountered in each use of the utilities and will lead t
     and just handle untill not time passed like 10 instead of 150
 
 
-## <!-- [SOLVED] [REQUIRE_CONFIRMATION] -->
+>  SOLVED <!-- [REQUIRE_CONFIRMATION] -->
 -       invo manager killAll doesnt look if is empty the one you give it .. check and 
     add warning if he does it .. ..
 -       invo advaned constructors to return the class so that you can handle it 
     in the normal ones does it ???
 -       need function to say havePassedFromThen
+
+
+> JUST IDEAS
+- id referenced to gameobject ?? ??
+
